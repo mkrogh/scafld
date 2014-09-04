@@ -43,8 +43,8 @@ The following chaining methods exists:
 
 - `replace(token,content)` replaces all occurances of the supplied token, with content.
 - `replace_once(token,content)` replaces the first occurance of the supplied token with content.
-- `tokens(:on|:off)` swithces between {{token}} replacement and normal text replacement. Default is :on
-- `cleanup(:on|:off) turns token cleanup on/off. That is should scafld remove all "dangling" tokens when calling `build`
+- `tokens(:on|:off)` swithces between {{token}} replacement and normal text replacement. Default is `:on`
+- `cleanup(:on|:off)` turns token cleanup on/off. That is should scafld remove all "dangling" tokens when calling `build`. Default is `:on`.
 
 ### Other methods
 
