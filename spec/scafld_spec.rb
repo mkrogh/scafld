@@ -76,7 +76,5 @@ describe Scafld do
       result2 = scafld.replace("what", "ruby").build
       expect(result2).to eq("Hi Markus hope you like ruby")
     end
-
   end
-
 end
