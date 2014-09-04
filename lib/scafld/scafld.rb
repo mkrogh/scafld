@@ -36,6 +36,14 @@ module Scafld
       end
     end
 
+    def tokens_left?
+      if @token_status == :on and wrap_token(".*?").match(@content)
+        true
+      else
+        false
+      end
+    end
+
     def build
       #only cleanup if using tokens
       if @cleanup_status == :on and @token_status == :on
