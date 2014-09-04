@@ -1,6 +1,6 @@
 # Scafld
 
-TODO: Write a gem description
+A simple token replacement template engine. (Yes a fancy way of writing a regexp wrapper).
 
 ## Installation
 
@@ -18,11 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Scafld exposes two metods:
+
+    Scafld.from_s("some string with {{tokens}}")
+    Scafld.from_file("some-file.txt")
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/scafld/fork )
+1. Fork it ( http://github.com/mkrogh/scafld/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
